@@ -10,7 +10,7 @@ function Forecast({ title, items }) {
       <hr className="my-2" />
 
       <div className="flex flex-row items-center justify-between text-white">
-        {items.map((item) => (
+        {items?.map((item) => (
           <div className="flex flex-col items-center justify-center">
             <p className="font-light text-sm">{item.title}</p>
             <img
